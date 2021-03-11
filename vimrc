@@ -17,7 +17,7 @@ set vb t_vb=
 
 inoremap jk <Esc>
 
-nmap <C-S-P> :call <SID>SynStack()<CR>
+nmap <C-S-N> :call <SID>SynStack()<CR>
 function! <SID>SynStack()
     if !exists("*synstack")
         return

@@ -22,6 +22,7 @@ hi javaScriptFunction     ctermfg=143
 hi javaScriptGlobal       ctermfg=231
 hi javaScriptIdentifier   ctermfg=80
 hi javaScriptLabel        ctermfg=231
+hi javaScriptMember       ctermfg=231
 hi javaScriptMessage      ctermfg=231
 hi javaScriptNull         ctermfg=231
 hi javaScriptNumber       ctermfg=231
@@ -34,3 +35,8 @@ hi javaScriptSpecial      ctermfg=231
 hi javaScriptStatement    ctermfg=143
 hi javaScriptStringS      ctermfg=167
 hi javaScriptStringD      ctermfg=167
+
+" JSON highlighting
+hi jsonBraces             ctermfg=80
+hi jsonKeyword            ctermfg=143
+hi jsonString             ctermfg=167
